@@ -10,16 +10,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WishList"></activity>
-        <activity android:name=".TrawelList" />
-        <activity android:name=".ShopList" />
-        <activity android:name=".ToDoList" />
-        <activity android:name=".MainActivity">
+        android:get
+        <activity android:name=".WishList"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".TrawelList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ShopList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ToDoList"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            android:screenOrientation="portrait"
         </activity>
     </application>
 
