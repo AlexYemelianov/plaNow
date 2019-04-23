@@ -11,26 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".WishList"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".TrawelList"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".ShopList"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".ToDoList"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".ListsActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".RegistrationActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait">
+        <activity android:name=".WishList"></activity>
+        <activity android:name=".TrawelList"></activity>
+        <activity android:name=".ShopList"></activity>
+        <activity android:name=".ToDoList"></activity>
+        <activity android:name=".ListsActivity"></activity>
+        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            android:screenOrientation="portrait"
         </activity>
+
     </application>
 
 </manifest>
