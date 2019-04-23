@@ -63,6 +63,7 @@ public class ShopList extends AppCompatActivity {
         writeItems();
     }
 
+
     private void readItems() {
         File filesDir = getFilesDir();
         File shopFile = new File(filesDir, "shop.txt");

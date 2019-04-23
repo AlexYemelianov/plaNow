@@ -19,7 +19,7 @@ public class ListsActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent todo = new Intent(ListsActivity.this, ToDoList.class);
+                Intent todo = new Intent(ListsActivity.this, ListViewWithCheckboxActivity.class);
 
                 startActivity(todo);
             }

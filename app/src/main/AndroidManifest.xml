@@ -17,6 +17,7 @@
         <activity android:name=".ToDoList"></activity>
         <activity android:name=".ListsActivity"></activity>
         <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".ListViewWithCheckboxActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
