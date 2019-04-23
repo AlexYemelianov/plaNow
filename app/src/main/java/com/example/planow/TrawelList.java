@@ -26,7 +26,7 @@ public class TrawelList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trawel_list);
+        setContentView(R.layout.activity_travel_list);
 
         lvItems = findViewById(R.id.lvItems);
         items = new ArrayList<>();
